@@ -62,6 +62,7 @@ int main(){
     }
 
     std::cout << "Enterを押して終了>";
+
     while (true) {
         if (_kbhit()) { // キーが押されたかチェック
             char ch = _getch(); // 押されたキーを取得
